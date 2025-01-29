@@ -1,0 +1,15 @@
+# Copyright (c) 2024, Adrien Leravat
+# SPDX-License-Identifier: Apache-2.0
+
+description: HC-SR04 with one wire from both trig and echo.
+
+compatible: "hcsr04trig"
+
+include: sensor-device.yaml
+
+properties:
+  trigger-gpios:
+    type: phandle-array
+    required: true
+    description: |
+      Output pin used to trigger the distance measurement.
