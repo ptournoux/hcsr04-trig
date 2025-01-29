@@ -3,8 +3,8 @@
 # Copyright (c) 2024 Adrien Leravat
 # SPDX-License-Identifier: Apache-2.0
 
-config HCSRC04TRIG
-        bool "HCSRC04TRIG Ultrasound distance sensor"
+config HCSR04TRIG
+        bool "HCSR04TRIG Ultrasound distance sensor"
         default y
         depends on DT_HAS_HCSR04TRIG_ENABLED
         depends on GPIO

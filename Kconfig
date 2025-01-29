@@ -1,1 +1,1 @@
-rsource "drivers/sensor/hcsrc04trig/Kconfig"
+rsource "drivers/sensor/hcsr04trig/Kconfig"
