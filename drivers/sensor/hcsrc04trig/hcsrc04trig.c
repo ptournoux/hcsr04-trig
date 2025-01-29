@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define DT_DRV_COMPAT esiroi_hcsr04trig
+#define DT_DRV_COMPAT vnd_hcsr04trig
 
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/gpio.h>
