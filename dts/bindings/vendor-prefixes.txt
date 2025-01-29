@@ -1,1 +1,1 @@
-vnd
+vnd     A stand-in for a real vendor which can be used in examples and tests
